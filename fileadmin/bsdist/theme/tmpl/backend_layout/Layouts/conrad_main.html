@@ -1,0 +1,26 @@
+<header class="top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <f:cObject typoscriptObjectPath="lib.logo" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <f:cObject typoscriptObjectPath="lib.langnav" />
+                <f:cObject typoscriptObjectPath="lib.navbar" />
+            </div>          
+            <div style="display:none;" class="col-md-3 col-sm-3">
+              <div>SEARCHBOX HERE</div>
+            </div>
+        </div>
+  </div>
+</header>
+
+<div class="container">
+    <f:render section="content" />
+</div>
+
+<footer>
+    <f:cObject typoscriptObjectPath="lib.footerContent" />
+</footer>

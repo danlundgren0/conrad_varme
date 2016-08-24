@@ -1,0 +1,196 @@
+
+
+
+.clear{
+    clear: both;
+}
+
+
+#content{
+    width: 1020px;
+    margin: auto;
+    position: relative;
+}
+
+#inputs-container{
+    width: 220px;
+    float: left;
+    position: relative;
+}
+#inputs-container .inputs{
+    position: relative;
+}
+#inputs-container .inputs label{
+    width: 100px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+#inputs-container .inputs input{
+    width: 50px;
+    display: inline-block;
+}
+#inputs-container .inputs .symbol{
+    font-size: 9px;
+    margin-left: 3px;
+}
+#inputs-container .validate-label{
+    position: absolute;
+    background-color: #710909;
+}
+
+#inputs-container .validate-label {
+    background: #ee0101;
+    z-index:5001;
+    color: #fff;
+    width: 130px;
+    font-family: verdana;
+    font-size: 12px;
+    border: 2px solid #ddd;
+    box-shadow: 0 0 3px #000;
+    -moz-box-shadow: 0 0 3px #000;
+    -webkit-box-shadow: 0 0 3px #000;
+    padding: 0px 5px 2px 5px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    position: absolute;
+    top:0px;
+    right:-140px;
+}
+
+
+
+#grid-container{
+    width: 800px;
+    float: left;
+    font-size: 12px;
+}
+
+
+#grid-container .row{
+    height: 20px;
+
+}
+#grid-container .row .item{
+    height: 20px;
+    overflow: hidden;
+
+}
+
+#grid-container .row:hover{
+    /*background-color: #eee;*/
+}
+
+#grid-container .row-header{
+    text-transform: uppercase;
+    background-color: #f3f2f2;
+}
+#grid-container .g-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+#grid-container .g-table td{
+    padding: 2px;
+    vertical-align: central;
+    border: 1px solid #f3f2f2;
+}
+
+#grid-container .g-table .d0{
+    height: 30px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+#grid-container .g-table .d1{
+    width: 20px;
+    float: left;
+}
+#grid-container .g-table .d1 div{
+    float: right;
+    margin-right: 5px;
+}
+#grid-container .g-table .d2{
+    width: 750px;
+    padding-top: 3px;
+    float: left;
+}
+#grid-container .g-table .d3{
+    width: 750px;
+    padding-top: 3px;
+    margin-left: 20px;
+    float: left;
+}
+#grid-container .g-table .d4{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+#grid-container .g-table .first{
+    width: 260px;
+}
+
+.tubes{
+    height: 20px;
+    float: left;
+}
+.tubes div{
+    width: 8px !important;
+    height: 100%;
+    margin-top: 2px;
+    margin-right: 1px;
+    float: left;
+}
+
+.tube_0{
+    background-image: url(gfx/G.png);
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+.tube_1{
+    background-color: #d30e14;
+}
+.tube_W{
+    background-color: #1c486f;
+}
+
+.tube_F{
+    background-color: #6c6c6c;
+}
+.tube_G{
+    background-color: #e0e0e0;
+}
+.tube_C{
+    background-image: url(gfx/G.png);
+    background-repeat: no-repeat;
+    background-color: #d30e14;
+}
+.tube_X{
+    background-image: url(gfx/G.png);
+    background-repeat: no-repeat;
+    background-color: #e0e0e0;
+}
+.tube_Z{
+    background-image: url(gfx/G.png);
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+#loading{
+    position: absolute;
+    top:0px;
+    right: 0px;
+}
+
+.cap{
+    text-transform: capitalize;
+}
+
+.hidden{
+    display: none;
+}
+
+.rselect{
+    font-size: 12px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+

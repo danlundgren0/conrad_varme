@@ -1,0 +1,19 @@
+
+# cat=basic; type=options[fontawesome,custom]; label=Use predefined fontawesome or a custom font.:See tab "Custom" for custom icon font configuration.
+iconFont = fontawesome
+
+# cat=basic; type=boolean; label=Show icon field on page record.:Adds the icon select field to the page record.
+showIconFieldOnPage = 0
+
+# cat=custom; type=string; label=Path to custom php file with icon definition array. Required.:As an example see file ext_tables_fontawesome.php from this extension.
+customIconDefinitionFile =
+
+# cat=custom; type=string; label=RTE Htmlarea Plugin Class.:Your own class extending RteHtmlAreaApi. E.g. Laxap\IconfontFontello\Extension\InsertIcon
+customRtePluginClass =
+
+# cat=custom; type=string; label=Path to custom iconfont css for RTE.:Will be loaded by the RTE in the backend and included via incluceCSS on the frontend.
+customFontCssFile =
+
+# cat=custom; type=string; label=Path to custom stylesheet directory.:Used by the RTE.
+customStylesheetDirectory =
+

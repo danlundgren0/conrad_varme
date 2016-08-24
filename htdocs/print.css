@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+
+*{
+  font-family: lato;
+   
+}
+*:a{
+   color:#000;
+   font-family: lato;
+   text-decoration: none;
+   
+}
+
+#header{
+    width:343px;
+    height: 98px;
+    background-image: url(gfx/logo.jpg);
+    margin-bottom: 20px;
+}
+#name{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#image{
+    width: 481px;
+    height: 532px;
+    background-image: url(gfx/print_image.png);
+}
+
+#footer{
+    padding-top: 140px;
+    font-size: 11px;
+}
+
+#footer span{
+    margin-right: 20px;
+}
+
+ .row{
+    height: 20px;
+
+}
+ .row .item{
+    height: 20px;
+    overflow: hidden;
+
+}
+
+
+
+.row-header{
+    text-transform: uppercase;
+    background-color: #f3f2f2;
+}
+.g-table{
+    width: 90%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+ .g-table td{
+    padding: 2px;
+    vertical-align: central;
+    border: 1px solid #f3f2f2;
+}
+
+ .g-table .d0{
+    height: 30px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+ .g-table .d1{
+    width: 20px;
+    display: inline-block;
+}
+.g-table .d1 div{
+    float: right;
+    margin-right: 5px;
+}
+ .g-table .d2{
+    width: 700px;
+    padding-top: 3px;
+    display: inline-block;
+}
+.g-table .d3{
+    width: 700px;
+    padding: 10px;
+    padding-bottom: 0px;
+    font-size: 11px;
+    
+    float: left;
+}
+.g-table .d4{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.g-table .first{
+    width: 260px;
+}
+.tubes{
+    width: 260px;
+    height: 20px;
+    float: left;
+}
+.tubes div{
+    width: 8px !important;
+    height: 20px;
+    margin-right: 1px;
+    float: left;
+    display: inline-block;
+}
+
+.tube_0{
+    background-image: url(gfx/G.png);
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+.tube_1{
+    background-color: #d30e14;
+}
+.tube_W{
+    background-color: #1c486f;
+}
+
+.tube_F{
+    background-color: #6c6c6c;
+}
+.tube_G{
+    background-color: #e0e0e0;
+}
+.tube_C{
+    background-image: url(gfx/G.png);
+    background-repeat: no-repeat;
+    background-color: #d30e14;
+}
+.tube_X{
+    background-image: url(gfx/G.png);
+    background-repeat: no-repeat;
+    background-color: #e0e0e0;
+}
+.tube_Z{
+    background-image: url(gfx/G.png);
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+
+.hidden{
+    display: none;
+}
+
+
